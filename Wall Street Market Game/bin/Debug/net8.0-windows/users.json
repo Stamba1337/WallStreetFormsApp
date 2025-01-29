@@ -1,0 +1,39 @@
+[
+  {
+    "Username": "stanimir",
+    "Password": "iskam5leva",
+    "Money": 10000,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\1000_F_444310306_GAjUs7xEpKc51srQJEU5qaT8Wqj1REkO.jpg"
+  },
+  {
+    "Username": "yoancho",
+    "Password": "iskam5leva",
+    "Money": 10000,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\Sign.png"
+  },
+  {
+    "Username": "das",
+    "Password": "123",
+    "Money": 947,
+    "Inventory": {},
+    "ProfilePicturePath": "default.png"
+  },
+  {
+    "Username": "joni",
+    "Password": "123",
+    "Money": 6580,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\GettyImages-648509510-e1651686721279.png"
+  },
+  {
+    "Username": "az",
+    "Password": "123",
+    "Money": 3422,
+    "Inventory": {
+      "Oil": 9
+    },
+    "ProfilePicturePath": "default.png"
+  }
+]
