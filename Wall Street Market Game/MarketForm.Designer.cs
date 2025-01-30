@@ -43,6 +43,7 @@
             menuStrip1 = new MenuStrip();
             eXITToolStripMenuItem = new ToolStripMenuItem();
             panel1 = new Panel();
+            lblName = new Label();
             ((System.ComponentModel.ISupportInitialize)numQuantity).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfile).BeginInit();
             menuStrip1.SuspendLayout();
@@ -95,7 +96,7 @@
             // 
             lblBalance.AutoSize = true;
             lblBalance.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblBalance.Location = new Point(118, 42);
+            lblBalance.Location = new Point(118, 59);
             lblBalance.Name = "lblBalance";
             lblBalance.Size = new Size(85, 30);
             lblBalance.TabIndex = 4;
@@ -123,7 +124,7 @@
             // 
             // pictureBoxProfile
             // 
-            pictureBoxProfile.Location = new Point(12, 21);
+            pictureBoxProfile.Location = new Point(12, 38);
             pictureBoxProfile.Name = "pictureBoxProfile";
             pictureBoxProfile.Size = new Size(100, 100);
             pictureBoxProfile.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -134,7 +135,7 @@
             // 
             btnHighScores.BackColor = SystemColors.MenuHighlight;
             btnHighScores.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnHighScores.Location = new Point(118, 75);
+            btnHighScores.Location = new Point(118, 92);
             btnHighScores.Name = "btnHighScores";
             btnHighScores.Size = new Size(155, 46);
             btnHighScores.TabIndex = 8;
@@ -147,7 +148,7 @@
             btnExitGame.BackColor = SystemColors.ActiveCaptionText;
             btnExitGame.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnExitGame.ForeColor = SystemColors.ButtonFace;
-            btnExitGame.Location = new Point(687, 409);
+            btnExitGame.Location = new Point(687, 400);
             btnExitGame.Name = "btnExitGame";
             btnExitGame.Size = new Size(101, 38);
             btnExitGame.TabIndex = 9;
@@ -202,11 +203,22 @@
             panel1.Size = new Size(302, 108);
             panel1.TabIndex = 13;
             // 
+            // lblName
+            // 
+            lblName.AutoSize = true;
+            lblName.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblName.Location = new Point(141, 38);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(132, 21);
+            lblName.TabIndex = 14;
+            lblName.Text = "Stanimir Lambov";
+            // 
             // MarketForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblName);
             Controls.Add(panel1);
             Controls.Add(btnExitGame);
             Controls.Add(btnHighScores);
@@ -251,5 +263,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem eXITToolStripMenuItem;
         private Panel panel1;
+        private Label lblName;
     }
 }

@@ -8,7 +8,7 @@ namespace Wall_Street_Market_Game
 {
     public partial class RegisterForm : Form
     {
-        private string selectedImagePath = "default.png"; // Default profile picture
+        private string selectedImagePath = null;
 
         public RegisterForm()
         {
@@ -27,31 +27,41 @@ namespace Wall_Street_Market_Game
             string confirmPassword = txtConfirmPassword.Text;
             int money = (int)numStartingMoney.Value;
 
-            // ❌ Prevent empty fields
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Username and password cannot be empty!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // ❌ Prevent special characters in username
             if (!Regex.IsMatch(username, @"^[a-zA-Z0-9]+$"))
             {
                 MessageBox.Show("Username can only contain letters and numbers!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // ❌ Ensure passwords match
             if (password != confirmPassword)
             {
                 MessageBox.Show("Passwords do not match!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Create new user
-            User newUser = new User(username, password, money, selectedImagePath);
+            string profilePicturePath = selectedImagePath ?? Path.Combine(Application.StartupPath, "default.png");
 
-            // ✅ Register user using `UserManager`
+            string savedProfilePicturePath = Path.Combine(Application.StartupPath, "ProfilePicture.png");
+            try
+            {
+                if (File.Exists(profilePicturePath)) // Ensure file exists
+                {
+                    File.Copy(profilePicturePath, savedProfilePicturePath, true);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error saving profile picture: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            User newUser = new User(username, password, money, savedProfilePicturePath);
+
             if (UserManager.RegisterUser(newUser))
             {
                 MessageBox.Show($"User {username} registered with ${money}!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);

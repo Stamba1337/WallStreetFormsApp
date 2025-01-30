@@ -26,7 +26,7 @@ namespace Wall_Street_Market_Game
                 this.Close();
                 return;
             }
-
+            lblName.Text = currentUser.Username;
             InitializeMarketPrices();
             PopulateMarketList();
             UpdateUI();
@@ -43,7 +43,7 @@ namespace Wall_Street_Market_Game
             marketTimer.Start();
 
             lblNews.Text = "";
-
+            
             InitializeAutoSave();
         }
 
@@ -56,9 +56,11 @@ namespace Wall_Street_Market_Game
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                currentUser.ProfilePicturePath = openFileDialog.FileName;
-                pictureBoxProfile.Image = Image.FromFile(openFileDialog.FileName);
-                SessionManager.UpdateUser();
+                string newImagePath = openFileDialog.FileName;
+                SessionManager.UpdateProfilePicture(newImagePath);
+
+                
+                pictureBoxProfile.Image = SessionManager.GetUserProfileImage();
             }
         }
 

@@ -44,5 +44,26 @@
       "Oil": 0
     },
     "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\Sign.png"
+  },
+  {
+    "Username": "daaa",
+    "Password": "da",
+    "Money": 1000,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\bin\\Debug\\net8.0-windows\\ProfilePicture.png"
+  },
+  {
+    "Username": "sdaa",
+    "Password": "123",
+    "Money": 1000,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\Sign.png"
+  },
+  {
+    "Username": "daa",
+    "Password": "dsa",
+    "Money": 1000,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\bin\\Debug\\net8.0-windows\\ProfilePicture.png"
   }
 ]

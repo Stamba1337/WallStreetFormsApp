@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wall Street Market Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea8f23a9c5d5259c7a64b5b999d86016941f4bea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7448c29d16729670d02eb65411db9af1c8bd364a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wall Street Market Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wall Street Market Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
