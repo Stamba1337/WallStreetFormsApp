@@ -31,6 +31,7 @@ namespace Wall_Street_Market_Game
                 MessageBox.Show("Invalid username or password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+
             SessionManager.SetUser(user);
             MarketForm marketForm = new MarketForm();
             marketForm.Show();
@@ -41,6 +42,11 @@ namespace Wall_Street_Market_Game
         {
             RegisterForm registerForm = new RegisterForm();
             registerForm.ShowDialog();
+        }
+
+        private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

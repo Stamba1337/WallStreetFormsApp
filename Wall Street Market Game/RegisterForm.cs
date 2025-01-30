@@ -77,5 +77,10 @@ namespace Wall_Street_Market_Game
                 btnSelectImage.Image = Image.FromFile(selectedImagePath);
             }
         }
+
+        private void eCITToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

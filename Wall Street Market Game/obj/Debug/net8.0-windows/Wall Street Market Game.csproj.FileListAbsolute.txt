@@ -17,3 +17,23 @@ C:\Users\stamb\source\repos\Wall Street Market Game\Wall Street Market Game\obj\
 C:\Users\stamb\source\repos\Wall Street Market Game\Wall Street Market Game\obj\Debug\net8.0-windows\Wall_Street_Market_Game.RegisterForm.resources
 C:\Users\stamb\source\repos\Wall Street Market Game\Wall Street Market Game\obj\Debug\net8.0-windows\Wall_Street_Market_Game.MarketForm.resources
 C:\Users\stamb\source\repos\Wall Street Market Game\Wall Street Market Game\obj\Debug\net8.0-windows\Wall_Street_Market_Game.Properties.Resources.resources
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\bin\Debug\net8.0-windows\Wall Street Market Game.exe
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\bin\Debug\net8.0-windows\Wall Street Market Game.deps.json
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\bin\Debug\net8.0-windows\Wall Street Market Game.runtimeconfig.json
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\bin\Debug\net8.0-windows\Wall Street Market Game.dll
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\bin\Debug\net8.0-windows\Wall Street Market Game.pdb
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall_Street_Market_Game.LoginForm.resources
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall_Street_Market_Game.MarketForm.resources
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall_Street_Market_Game.Properties.Resources.resources
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall_Street_Market_Game.RegisterForm.resources
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.csproj.GenerateResource.cache
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.AssemblyInfoInputs.cache
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.AssemblyInfo.cs
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.csproj.CoreCompileInputs.cache
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.sourcelink.json
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.dll
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\refint\Wall Street Market Game.dll
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.pdb
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\Wall Street Market Game.genruntimeconfig.cache
+C:\Users\stamb\Documents\GitHub\WallStreetFormsApp\Wall Street Market Game\obj\Debug\net8.0-windows\ref\Wall Street Market Game.dll

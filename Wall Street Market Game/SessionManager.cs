@@ -26,13 +26,27 @@ namespace Wall_Street_Market_Game
             {
                 return Image.FromFile(CurrentUser.ProfilePicturePath);
             }
-            return Image.FromFile("default.png");
+            return null;
         }
         // Optional: Logout method (clears the user session)
         public static void Logout()
         {
+            UpdateUser(); // Save progress before logging out
             CurrentUser = null;
-            Application.Restart(); // Restarts the app to clear session data
+
+            // Find and close the MarketForm
+            foreach (Form form in Application.OpenForms)
+            {
+                if (form is MarketForm)
+                {
+                    form.Close();
+                    break;
+                }
+            }
+
+            // Show the login form again
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
         }
     }
 }

@@ -41,14 +41,17 @@
             btnCancel = new Button();
             btnSelectImage = new PictureBox();
             label5 = new Label();
+            menuStrip1 = new MenuStrip();
+            eCITToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)numStartingMoney).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnSelectImage).BeginInit();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(71, 147);
+            label1.Location = new Point(71, 206);
             label1.Name = "label1";
             label1.Size = new Size(63, 15);
             label1.TabIndex = 0;
@@ -57,7 +60,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(72, 181);
+            label2.Location = new Point(72, 240);
             label2.Name = "label2";
             label2.Size = new Size(60, 15);
             label2.TabIndex = 1;
@@ -66,7 +69,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(49, 215);
+            label3.Location = new Point(49, 274);
             label3.Name = "label3";
             label3.Size = new Size(107, 15);
             label3.TabIndex = 2;
@@ -74,21 +77,21 @@
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(176, 143);
+            txtUsername.Location = new Point(176, 202);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(100, 23);
             txtUsername.TabIndex = 3;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(176, 177);
+            txtPassword.Location = new Point(176, 236);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(100, 23);
             txtPassword.TabIndex = 4;
             // 
             // txtConfirmPassword
             // 
-            txtConfirmPassword.Location = new Point(176, 211);
+            txtConfirmPassword.Location = new Point(176, 270);
             txtConfirmPassword.Name = "txtConfirmPassword";
             txtConfirmPassword.Size = new Size(100, 23);
             txtConfirmPassword.TabIndex = 5;
@@ -96,7 +99,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(57, 249);
+            label4.Location = new Point(57, 308);
             label4.Name = "label4";
             label4.Size = new Size(91, 15);
             label4.TabIndex = 6;
@@ -104,14 +107,14 @@
             // 
             // numStartingMoney
             // 
-            numStartingMoney.Location = new Point(166, 245);
+            numStartingMoney.Location = new Point(166, 304);
             numStartingMoney.Name = "numStartingMoney";
             numStartingMoney.Size = new Size(120, 23);
             numStartingMoney.TabIndex = 7;
             // 
             // btnRegister
             // 
-            btnRegister.Location = new Point(73, 282);
+            btnRegister.Location = new Point(73, 341);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(75, 23);
             btnRegister.TabIndex = 8;
@@ -121,7 +124,7 @@
             // 
             // btnCancel
             // 
-            btnCancel.Location = new Point(177, 282);
+            btnCancel.Location = new Point(177, 341);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(75, 23);
             btnCancel.TabIndex = 9;
@@ -133,7 +136,7 @@
             // 
             btnSelectImage.Image = (Image)resources.GetObject("btnSelectImage.Image");
             btnSelectImage.InitialImage = (Image)resources.GetObject("btnSelectImage.InitialImage");
-            btnSelectImage.Location = new Point(116, 37);
+            btnSelectImage.Location = new Point(116, 96);
             btnSelectImage.Name = "btnSelectImage";
             btnSelectImage.Size = new Size(100, 100);
             btnSelectImage.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -144,11 +147,27 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(57, 19);
+            label5.Location = new Point(57, 78);
             label5.Name = "label5";
             label5.Size = new Size(243, 15);
             label5.TabIndex = 11;
             label5.Text = "CLICK THE CAT TO CHOOSE PROFILE IMAGE";
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { eCITToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(345, 24);
+            menuStrip1.TabIndex = 12;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // eCITToolStripMenuItem
+            // 
+            eCITToolStripMenuItem.Name = "eCITToolStripMenuItem";
+            eCITToolStripMenuItem.Size = new Size(42, 20);
+            eCITToolStripMenuItem.Text = "EXIT";
+            eCITToolStripMenuItem.Click += eCITToolStripMenuItem_Click;
             // 
             // RegisterForm
             // 
@@ -167,10 +186,14 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "RegisterForm";
             Text = "RegisterForm";
             ((System.ComponentModel.ISupportInitialize)numStartingMoney).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnSelectImage).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -189,5 +212,7 @@
         private Button btnCancel;
         private PictureBox btnSelectImage;
         private Label label5;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem eCITToolStripMenuItem;
     }
 }

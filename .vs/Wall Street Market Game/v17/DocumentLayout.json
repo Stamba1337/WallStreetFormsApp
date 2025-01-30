@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\wall street market game\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\wall street market game\\marketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\marketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\marketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\marketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\wall street market game\\marketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\marketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\wall street market game\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\wall street market game\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|solutionrelative:wall street market game\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3897DDE7-F04C-4E7E-A066-E0ABA2CE982B}|Wall Street Market Game\\Wall Street Market Game.csproj|c:\\users\\stamb\\documents\\github\\wallstreetformsapp\\wall street market game\\marketform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,48 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 190,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SessionManager.cs",
-              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\SessionManager.cs",
-              "RelativeDocumentMoniker": "Wall Street Market Game\\SessionManager.cs",
-              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\SessionManager.cs",
-              "RelativeToolTip": "Wall Street Market Game\\SessionManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T08:17:47.807Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\User.cs",
-              "RelativeDocumentMoniker": "Wall Street Market Game\\User.cs",
-              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\User.cs",
-              "RelativeToolTip": "Wall Street Market Game\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:18:24.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "Wall Street Market Game\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\RegisterForm.cs",
-              "RelativeToolTip": "Wall Street Market Game\\RegisterForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:13:52.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "RegisterForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\RegisterForm.cs",
               "RelativeDocumentMoniker": "Wall Street Market Game\\RegisterForm.cs",
@@ -111,20 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Wall Street Market Game\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\LoginForm.cs",
-              "RelativeToolTip": "Wall Street Market Game\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:08:37.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MarketForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\MarketForm.cs",
               "RelativeDocumentMoniker": "Wall Street Market Game\\MarketForm.cs",
@@ -142,14 +92,65 @@
               "RelativeDocumentMoniker": "Wall Street Market Game\\MarketForm.cs",
               "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\MarketForm.cs",
               "RelativeToolTip": "Wall Street Market Game\\MarketForm.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAA6wJcAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAANEAAAAAAAAAAAAlwOEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T13:41:13.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Wall Street Market Game\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Wall Street Market Game\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:01:10.174Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "Wall Street Market Game\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\RegisterForm.cs",
+              "RelativeToolTip": "Wall Street Market Game\\RegisterForm.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAApwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:13:52.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\SessionManager.cs",
+              "RelativeDocumentMoniker": "Wall Street Market Game\\SessionManager.cs",
+              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\SessionManager.cs",
+              "RelativeToolTip": "Wall Street Market Game\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T08:17:47.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Wall Street Market Game\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\LoginForm.cs",
+              "RelativeToolTip": "Wall Street Market Game\\LoginForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawBcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:08:37.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\UserManager.cs",
               "RelativeDocumentMoniker": "Wall Street Market Game\\UserManager.cs",
@@ -157,18 +158,21 @@
               "RelativeToolTip": "Wall Street Market Game\\UserManager.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAmwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T07:55:14.621Z"
+              "WhenOpened": "2025-01-30T07:55:14.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Wall Street Market Game\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\stamb\\source\\repos\\Wall Street Market Game\\Wall Street Market Game\\LoginForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\Wall Street Market Game\\Wall Street Market Game\\LoginForm.cs [Design]",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\User.cs",
+              "RelativeDocumentMoniker": "Wall Street Market Game\\User.cs",
+              "ToolTip": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\User.cs",
+              "RelativeToolTip": "Wall Street Market Game\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA7wCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:01:10.174Z"
+              "WhenOpened": "2025-01-29T13:18:24.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -180,7 +184,8 @@
               "RelativeToolTip": "Wall Street Market Game\\MarketForm.Designer.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAMwEkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:28:05.292Z"
+              "WhenOpened": "2025-01-29T13:28:05.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -204,7 +209,8 @@
               "RelativeToolTip": "Wall Street Market Game\\LoginForm.Designer.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAjwFgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:09:51.639Z"
+              "WhenOpened": "2025-01-29T13:09:51.639Z",
+              "EditorCaption": ""
             }
           ]
         }

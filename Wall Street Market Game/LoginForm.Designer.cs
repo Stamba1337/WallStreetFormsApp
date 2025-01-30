@@ -35,7 +35,10 @@
             btnLogin = new Button();
             btnRegister = new Button();
             pictureBoxProfile = new PictureBox();
+            menuStrip1 = new MenuStrip();
+            eXITToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfile).BeginInit();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -98,6 +101,22 @@
             pictureBoxProfile.TabIndex = 6;
             pictureBoxProfile.TabStop = false;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { eXITToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(345, 24);
+            menuStrip1.TabIndex = 7;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // eXITToolStripMenuItem
+            // 
+            eXITToolStripMenuItem.Name = "eXITToolStripMenuItem";
+            eXITToolStripMenuItem.Size = new Size(42, 20);
+            eXITToolStripMenuItem.Text = "EXIT";
+            eXITToolStripMenuItem.Click += eXITToolStripMenuItem_Click;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -110,9 +129,13 @@
             Controls.Add(txtPassword);
             Controls.Add(label2);
             Controls.Add(label1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "LoginForm";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfile).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -126,5 +149,7 @@
         private Button btnLogin;
         private Button btnRegister;
         private PictureBox pictureBoxProfile;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem eXITToolStripMenuItem;
     }
 }

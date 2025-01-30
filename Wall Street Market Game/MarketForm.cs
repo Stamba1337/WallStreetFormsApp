@@ -76,10 +76,17 @@ namespace Wall_Street_Market_Game
 
         private void PopulateMarketList()
         {
+            int selectedIndex = lstMarket.SelectedIndex;
             lstMarket.Items.Clear();
+
             foreach (var item in marketPrices)
             {
                 lstMarket.Items.Add($"{item.Key} - ${item.Value}");
+            }
+            if (selectedIndex >= 0 && selectedIndex < lstMarket.Items.Count)
+            {
+                lstMarket.SelectedIndex = selectedIndex;
+                lstMarket.Focus();
             }
         }
 
@@ -159,7 +166,6 @@ namespace Wall_Street_Market_Game
                 return;
             }
 
-            // ❌ Ensure user owns enough stock to sell
             if (currentUser.Inventory.ContainsKey(item) && currentUser.Inventory[item] >= quantity)
             {
                 int earnings = marketPrices[item] * quantity;
@@ -221,15 +227,14 @@ namespace Wall_Street_Market_Game
             }
 
             int eventChance = random.Next(0, 100);
-            if (eventChance < 20) // 20% chance of a market event occurring
+            if (eventChance < 20) // 20%
             {
                 ApplyRandomEvent();
             }
 
             PopulateMarketList();
-            SessionManager.UpdateUser(); // Use SessionManager instead of UserManager
+            SessionManager.UpdateUser();
         }
-
 
         private void ApplyRandomEvent()
         {
@@ -254,7 +259,7 @@ namespace Wall_Street_Market_Game
 
             var newsTimer = new System.Windows.Forms.Timer
             {
-                Interval = 5000 // 5 seconds
+                Interval = 5000 // Default: 5 seconds
             };
             newsTimer.Tick += (sender, e) =>
             {
@@ -266,8 +271,17 @@ namespace Wall_Street_Market_Game
 
         private void btnExitGame_Click(object sender, EventArgs e)
         {
-            SessionManager.UpdateUser();
-            Application.Exit();
+            DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                SessionManager.Logout();
+            }
+        }
+
+        private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

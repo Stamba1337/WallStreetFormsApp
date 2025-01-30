@@ -30,11 +30,11 @@
   {
     "Username": "az",
     "Password": "123",
-    "Money": 3422,
+    "Money": 23185,
     "Inventory": {
-      "Oil": 9
+      "Bitcoin": 3
     },
-    "ProfilePicturePath": "default.png"
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\Sign.png"
   },
   {
     "Username": "da",
