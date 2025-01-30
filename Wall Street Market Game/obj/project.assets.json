@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stamb\\source\\repos\\Wall Street Market Game\\Wall Street Market Game\\Wall Street Market Game.csproj",
+      "projectUniqueName": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\Wall Street Market Game.csproj",
       "projectName": "Wall Street Market Game",
-      "projectPath": "C:\\Users\\stamb\\source\\repos\\Wall Street Market Game\\Wall Street Market Game\\Wall Street Market Game.csproj",
+      "projectPath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\Wall Street Market Game.csproj",
       "packagesPath": "C:\\Users\\stamb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stamb\\source\\repos\\Wall Street Market Game\\Wall Street Market Game\\obj\\",
+      "outputPath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

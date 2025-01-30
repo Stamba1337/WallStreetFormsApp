@@ -35,5 +35,14 @@
       "Oil": 9
     },
     "ProfilePicturePath": "default.png"
+  },
+  {
+    "Username": "da",
+    "Password": "123",
+    "Money": 1000,
+    "Inventory": {
+      "Oil": 0
+    },
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\Sign.png"
   }
 ]

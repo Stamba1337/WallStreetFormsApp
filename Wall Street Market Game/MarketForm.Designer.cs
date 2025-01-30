@@ -161,7 +161,8 @@
             // lblNews
             // 
             lblNews.AutoSize = true;
-            lblNews.Location = new Point(31, 367);
+            lblNews.Location = new Point(12, 367);
+            lblNews.MaximumSize = new Size(302, 0);
             lblNews.Name = "lblNews";
             lblNews.Size = new Size(38, 15);
             lblNews.TabIndex = 11;
@@ -184,6 +185,8 @@
             Controls.Add(btnBuy);
             Controls.Add(numQuantity);
             Controls.Add(lstMarket);
+            MaximumSize = new Size(816, 489);
+            MinimumSize = new Size(816, 489);
             Name = "MarketForm";
             Text = "MarketForm";
             ((System.ComponentModel.ISupportInitialize)numQuantity).EndInit();

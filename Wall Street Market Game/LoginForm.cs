@@ -1,9 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text.Json;
-using System.Windows.Forms;
 using System.Drawing;
+using System.IO;
+using System.Windows.Forms;
 
 namespace Wall_Street_Market_Game
 {
@@ -17,44 +15,26 @@ namespace Wall_Street_Market_Game
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string username = txtUsername.Text;
+            string username = txtUsername.Text.Trim();
             string password = txtPassword.Text;
 
-            List<User> users = LoadUsers();
-            User user = users.Find(u => u.Username == username && u.Password == password);
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Username and password cannot be empty!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            User user = UserManager.VerifyUser(username, password);
 
             if (user == null)
             {
                 MessageBox.Show("Invalid username or password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (File.Exists(user.ProfilePicturePath))
-            {
-                pictureBoxProfile.Image = Image.FromFile(user.ProfilePicturePath);
-            }
-            MarketForm marketForm = new MarketForm(user);
+            SessionManager.SetUser(user);
+            MarketForm marketForm = new MarketForm();
             marketForm.Show();
             this.Hide();
-        }
-
-        private List<User> LoadUsers()
-        {
-            if (!File.Exists("users.json")) return new List<User>();
-
-            string json = File.ReadAllText("users.json");
-
-            if (string.IsNullOrWhiteSpace(json)) // Check if the file is empty
-                return new List<User>();
-
-            try
-            {
-                return JsonSerializer.Deserialize<List<User>>(json) ?? new List<User>();
-            }
-            catch (JsonException)
-            {
-                MessageBox.Show("Error loading user data! The file may be corrupted.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return new List<User>();
-            }
         }
 
         private void btnRegister_Click(object sender, EventArgs e)

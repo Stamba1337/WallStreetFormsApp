@@ -68,14 +68,14 @@
             txtUsername.Location = new Point(164, 161);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(108, 23);
-            txtUsername.TabIndex = 3;
+            txtUsername.TabIndex = 1;
             // 
             // btnLogin
             // 
             btnLogin.Location = new Point(86, 230);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(83, 28);
-            btnLogin.TabIndex = 4;
+            btnLogin.TabIndex = 3;
             btnLogin.Text = "LOGIN";
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
@@ -85,7 +85,7 @@
             btnRegister.Location = new Point(175, 230);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(83, 28);
-            btnRegister.TabIndex = 5;
+            btnRegister.TabIndex = 4;
             btnRegister.Text = "REGISTER";
             btnRegister.UseVisualStyleBackColor = true;
             btnRegister.Click += btnRegister_Click;
