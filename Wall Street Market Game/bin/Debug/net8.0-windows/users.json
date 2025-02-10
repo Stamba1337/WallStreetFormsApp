@@ -4,7 +4,7 @@
     "Password": "iskam5leva",
     "Money": 10000,
     "Inventory": {},
-    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\1000_F_444310306_GAjUs7xEpKc51srQJEU5qaT8Wqj1REkO.jpg"
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\bin\\Debug\\net8.0-windows\\ProfilePicture.png"
   },
   {
     "Username": "yoancho",
@@ -62,6 +62,27 @@
   {
     "Username": "daa",
     "Password": "dsa",
+    "Money": 1000,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\bin\\Debug\\net8.0-windows\\ProfilePicture.png"
+  },
+  {
+    "Username": "stoyancho",
+    "Password": "123",
+    "Money": 30400,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\bin\\Debug\\net8.0-windows\\ProfilePicture.png"
+  },
+  {
+    "Username": "ivnacho",
+    "Password": "123",
+    "Money": 1000,
+    "Inventory": {},
+    "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\bin\\Debug\\net8.0-windows\\ProfilePicture.png"
+  },
+  {
+    "Username": "ivanchoo",
+    "Password": "123",
     "Money": 1000,
     "Inventory": {},
     "ProfilePicturePath": "C:\\Users\\stamb\\Documents\\GitHub\\WallStreetFormsApp\\Wall Street Market Game\\bin\\Debug\\net8.0-windows\\ProfilePicture.png"
